@@ -1,5 +1,5 @@
 {
-  "name": "security-provider",
+  "name": "@Invenso/security-provider",
   "version": "1.0.0",
   "description": "React security component for roles and permissions",
   "author": "Invenso",
