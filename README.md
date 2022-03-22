@@ -15,12 +15,18 @@ npm install --save security-provider
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'security-provider'
-import 'security-provider/dist/index.css'
+import { SecureComponent, SecurityProvider} from 'security-provider'
+
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <SecureComponent />
+  }
+}
+
+Class Example extends Component {
+  render() {
+    return <SecurityProvider />
   }
 }
 ```
