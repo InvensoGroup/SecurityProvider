@@ -15,12 +15,17 @@ npm install --save @invenso/security-provider
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from '@invenso/security-provider'
-import '@invenso/security-provider/dist/index.css'
+import { SecureComponent, SecurityProvider} from '@invenso/security-provider'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <SecurityProvider permissions={permissions} roles={roles} />
+  }
+}
+
+class Example extends Component {
+  render() {
+    return <SecureComponent permissions={['CREATE_USER']} />
   }
 }
 ```
