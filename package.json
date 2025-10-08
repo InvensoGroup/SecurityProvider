@@ -1,6 +1,6 @@
 {
   "name": "@invenso/security-provider",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "React security component for roles and permissions",
   "author": "Invenso",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "deploy": "npm run build && "
   },
   "peerDependencies": {
-    "react": "^17.0.0"
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
